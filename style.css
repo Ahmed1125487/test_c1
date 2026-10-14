@@ -1,0 +1,24 @@
+img{
+    width: 200px;
+    position: relative;
+    animation: alwan 10s infinite;
+}
+
+@keyframes alwan{
+    0%{
+        left: 0;
+        transform: rotateY(0deg);
+    }
+    50%{
+        left: 1250px;
+        transform: rotateY(0deg);
+    }
+    51%{
+        transform: rotateY(180deg);
+        left: 1250px;
+    }
+    100%{
+        left:0;
+        transform: rotateY(180deg);
+    }
+}
